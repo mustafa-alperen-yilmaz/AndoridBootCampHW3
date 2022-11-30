@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigateInterstallerDetail"
+    app:startDestination="@id/movieMainFragment">
+
+    <fragment
+        android:id="@+id/movieMainFragment"
+        android:name="com.example.bootcamphw3.MovieMainFragment"
+        android:label="fragment_movie_main"
+        tools:layout="@layout/fragment_movie_main" >
+        <action
+            android:id="@+id/navigate_mainPage_To_interstellarPage"
+            app:destination="@id/interstellarFragment" />
+        <action
+            android:id="@+id/navigate_mainPage_To_theDarkNightPage"
+            app:destination="@id/theDarkNightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/interstellarFragment"
+        android:name="com.example.bootcamphw3.InterstellarFragment"
+        android:label="fragment_interstellar"
+        tools:layout="@layout/fragment_interstellar" >
+        <action
+            android:id="@+id/navigate_interstallerPage_To_purchasePage"
+            app:destination="@id/purchaseFragment"
+            app:popUpTo="@id/interstellarFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/purchaseFragment"
+        android:name="com.example.bootcamphw3.PurchaseFragment"
+        android:label="fragment_purchase"
+        tools:layout="@layout/fragment_purchase" >
+        <action
+            android:id="@+id/navigate_purchasePage_To_movieMainPage"
+            app:destination="@id/movieMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/theDarkNightFragment"
+        android:name="com.example.bootcamphw3.TheDarkNightFragment"
+        android:label="fragment_the_dark_night"
+        tools:layout="@layout/fragment_the_dark_night" >
+        <action
+            android:id="@+id/navigate_theDarkNightPage_To_theDarkNightDetailPage"
+            app:destination="@id/theDarkNightDetailFragment"
+            app:popUpTo="@id/theDarkNightFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/theDarkNightDetailFragment"
+        android:name="com.example.bootcamphw3.TheDarkNightDetailFragment"
+        android:label="fragment_the_dark_night_detail"
+        tools:layout="@layout/fragment_the_dark_night_detail" >
+        <action
+            android:id="@+id/navigate_theDarkNightDetailPage_To_purchasePage"
+            app:destination="@id/purchaseFragment"
+            app:popUpTo="@id/theDarkNightDetailFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

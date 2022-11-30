@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">androidBootcampHw2</string>
+    <string name="movies_text">Filmler</string>
+
+    <string name="interstellar_movie">Yıldızlararası</string>
+    <string name="interstellar_description">Yıldızlararası, Christopher Nolan tarafından yönetilen 2014 Amerikan epik bilim kurgu filmidir.</string>
+    <string name="intersteller_price">₺ 83.86</string>
+    <string name="the_dark_knight_movie">Kara Şövalye</string>
+    <string name="the_dark_knight_description">Kara Şövalye, Christopher Nolan tarafından yönetilen bir süper kahraman filmidir.</string>
+    <string name="the_dark_knight_price">₺ 99.70</string>
+    <string name="button_text">Satın Al</string>
+    <string name="button_text_detail">DETAYLAR</string>
+    <string name="interstellar_detail">Yıldızlararası, Christopher Nolan tarafından yönetilen 2014 Amerikan epik bilim kurgu filmidir. Başrollerde Matthew McConaughey, Anne Hathaway, Jessica Chastain ve Michael Caine var. Film, bir solucan deliğinden geçen ve insanların yaşaması için yeni bir yer arayan bir grup astronot hakkındadır.</string>
+    <string name="the_dark_night_detail">Filmin olay örgüsü, Bruce Wayne/Batman , bölge savcısı Harvey Dent , asistan Rachel Dawes  ve Polis Komiseri James Gordonın, onların suçla mücadelelerinin ve yeni tehdit Jokerin etrafında gelişir. </string>
+    <string name="succesfulBuy">Tebrikler, satın alımınız onaylanmıştır.</string>
+    <string name="buttonGoMainMenu">Ana Sayfaya Git</string>
+</resources>

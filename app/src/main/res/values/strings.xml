@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">bootcampHw3</string>
+    <string name="movies_text">Movies</string>
+
+    <string name="interstellar_movie">Interstellar</string>
+    <string name="interstellar_description">Interstellar is a 2014 American epic science fiction film directed by Christopher Nolan</string>
+    <string name="intersteller_price">$ 4.5</string>
+    <string name="the_dark_knight_movie">The Dark Knight</string>
+    <string name="the_dark_knight_description">The Dark Knight is a superhero movie directed by Christopher Nolan</string>
+    <string name="the_dark_knight_price">$ 5.35</string>
+    <string name="button_text">BUY</string>
+    <string name="button_text_detail">DETAILS</string>
+    <string name="interstellar_detail">Interstellar is a 2014 American epic science fiction film directed by Christopher Nolan. Starring Matthew McConaughey, Anne Hathaway, Jessica Chastain and Michael Caine. The film is about a group of astronauts going through a wormhole and searching for a new place for humans to live.</string>
+    <string name="the_dark_night_detail">The plot of the movie revolves around Bruce Wayne/Batman, district attorney Harvey Dent, assistant Rachel Dawes and Police Commissioner James Gordon, their fight against crime, and the new threat, the Joker.</string>
+    <string name="succesfulBuy">Congratulations, your purchase has been confirmed.</string>
+    <string name="buttonGoMainMenu">Go To Main Page</string>
+</resources>

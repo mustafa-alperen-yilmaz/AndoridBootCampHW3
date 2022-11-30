@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">androidBootcampHw2</string>
+    <string name="movies_text">Films</string>
+
+    <string name="interstellar_movie">Interstellair</string>
+    <string name="interstellar_description">Interstellar is een Amerikaanse epische sciencefictionfilm uit 2014, geregisseerd door Christopher Nolan.</string>
+    <string name="intersteller_price">€ 4.33</string>
+    <string name="the_dark_knight_movie">Zwarte ridder</string>
+    <string name="the_dark_knight_description">The Dark Knight is een superheldenfilm geregisseerd door Christopher Nolan.</string>
+    <string name="the_dark_knight_price">€ 5.15</string>
+    <string name="button_text">Kopen</string>
+    <string name="button_text_detail">DETAILS</string>
+    <string name="interstellar_detail">Interstellar is een Amerikaanse epische sciencefictionfilm uit 2014, geregisseerd door Christopher Nolan. Met Matthew McConaughey, Anne Hathaway, Jessica Chastain en Michael Caine. De film gaat over een groep astronauten die door een wormgat gaan en op zoek gaan naar een nieuwe plek voor mensen om te leven.</string>
+    <string name="the_dark_night_detail">De plot van de film draait om Bruce Wayne/Batman, officier van justitie Harvey Dent, assistent Rachel Dawes en politiecommissaris James Gordon, hun strijd tegen de misdaad en de nieuwe dreiging, de Joker.</string>
+    <string name="succesfulBuy">Gefeliciteerd, uw aankoop is bevestigd.</string>
+    <string name="buttonGoMainMenu">Ga naar hoofdpagina</string>
+</resources>
